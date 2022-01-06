@@ -43,3 +43,6 @@ fastapi/
 dev-error.log
 
 .pytest_cache
+
+deploy-prod-script.sh
+deploy-dev-script.sh

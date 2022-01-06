@@ -66,9 +66,6 @@ async def execute_sql(sql, param={}, debug=False, engine_type=EngineType.PLAYERD
             rows = await session.execute(sql, param)
             # parse data
             records = sql_cursor(rows) if has_return else None
-            # commit session
-            await session.commit()
-
 
     # OperationalError = Deadlock, InternalError = lock timeout
     except OperationalError as e:

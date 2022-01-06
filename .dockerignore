@@ -1,0 +1,13 @@
+#venv folders and holdovers from flask that get used sometimes in scraper sprints
+env
+venv
+fastapi
+flask
+logs
+mysite
+plugin
+routers
+scraper
+
+.git
+.github
